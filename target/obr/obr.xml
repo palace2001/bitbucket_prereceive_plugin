@@ -1,0 +1,20 @@
+<repository lastmodified='20191124055410.997'>
+  <resource id='com.samsung.ds.memory.swdev.prereceive-plugin/1.0.0.SNAPSHOT' symbolicname='com.samsung.ds.memory.swdev.prereceive-plugin' presentationname='prereceive-plugin' uri='prereceive-plugin-1.0.0-SNAPSHOT.jar' version='1.0.0.SNAPSHOT'>
+    <description>This is the com.samsung.ds.memory.swdev:prereceive-plugin plugin for Atlassian Bitbucket Server.</description>
+    <size>16557</size>
+    <documentation>http://www.example.com/</documentation>
+    <capability name='bundle'>
+      <p n='symbolicname' v='com.samsung.ds.memory.swdev.prereceive-plugin'/>
+      <p n='presentationname' v='prereceive-plugin'/>
+      <p n='version' t='version' v='1.0.0.SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.samsung.ds.memory.swdev.api'/>
+      <p n='version' t='version' v='1.0.0'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=com.atlassian.bitbucket.hook))' extend='false' multiple='false' optional='false'>Import package com.atlassian.bitbucket.hook</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.bitbucket.hook.repository))' extend='false' multiple='false' optional='false'>Import package com.atlassian.bitbucket.hook.repository</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.bitbucket.repository))' extend='false' multiple='false' optional='false'>Import package com.atlassian.bitbucket.repository</require>
+  </resource>
+</repository>

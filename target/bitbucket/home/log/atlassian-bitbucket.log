@@ -1,0 +1,218 @@
+2019-11-24 17:50:37,589 WARN  [main]  com.atlassian.plugin.util.WaitUntil Switching to log level [INFO]
+2019-11-24 17:50:37,601 INFO  [main]  c.a.stash.internal.scm.git.command Switching to log level [WARN]
+2019-11-24 17:50:37,602 INFO  [main]  com.atlassian.stash.internal.project Switching to log level [WARN]
+2019-11-24 17:50:37,628 INFO  [main]  o.s.boot.SpringApplication 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::       (v1.5.17.RELEASE)
+
+
+2019-11-24 17:50:37,924 INFO  [main]  c.a.b.i.b.BitbucketServerApplication Starting BitbucketServerApplication on DESKTOP-VQHCL4H with PID 19192 (C:\Users\KKP\Desktop\Repo\atlas\bitbucket_prereceive_plugin\target\bitbucket\app\WEB-INF\classes started by KKP in C:\Users\KKP\Desktop\Repo\atlas\bitbucket_prereceive_plugin)
+2019-11-24 17:50:37,924 INFO  [main]  c.a.b.i.b.BitbucketServerApplication No active profile set, falling back to default profiles: default
+2019-11-24 17:50:39,544 INFO  [main]  c.a.b.i.boot.log.BuildInfoLogger Starting Bitbucket 5.16.0 (c03f0a7 built on Fri Nov 16 13:10:50 KST 2018)
+2019-11-24 17:50:39,545 INFO  [main]  c.a.b.i.boot.log.BuildInfoLogger JVM: Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 1.8.0_191-b12
+2019-11-24 17:50:48,425 INFO  [spring-startup]  c.a.s.internal.home.HomeLockAcquirer Successfully acquired lock on home directory C:\Users\KKP\Desktop\Repo\atlas\bitbucket_prereceive_plugin\target\bitbucket\home
+2019-11-24 17:50:56,529 INFO  [spring-startup]  c.a.s.internal.home.HomeLockAcquirer Successfully acquired lock on home directory C:\Users\KKP\Desktop\Repo\atlas\bitbucket_prereceive_plugin\target\bitbucket\home\shared
+2019-11-24 17:50:59,815 WARN  [spring-startup]  com.hazelcast.instance.Node [192.168.0.6]:5701 [KKP] [3.7.4-atlassian-43] No join method is enabled! Starting standalone.
+2019-11-24 17:51:22,860 INFO  [spring-startup]  c.a.s.i.hook.DefaultHookService Hook callback socket listening on 127.0.0.1:4978
+2019-11-24 17:51:25,219 INFO  [spring-startup]  c.a.s.i.s.g.t.DefaultTranscodeServer Callback socket listening at 127.0.0.1:4980
+2019-11-24 17:51:37,171 WARN  [spring-startup]  c.a.p.o.f.t.s.ScanDescriptorForHostClassesStage The plugin 'atlassian-universal-plugin-manager-plugin-2.22.14.jar' uses a package 'org.apache.commons.fileupload.servlet' that is also exported by the application. It is highly recommended that the plugin use its own packages.
+2019-11-24 17:51:46,764 WARN  [ThreadPoolAsyncTaskExecutor::Thread 8]  c.s.d.m.s.prereceive-plugin.spring 
+Spring context started for bundle : com.samsung.ds.memory.swdev.prereceive-plugin id(125) v(1.0.0.SNAPSHOT) file:/C:/Users/KKP/Desktop/Repo/atlas/bitbucket_prereceive_plugin/target/bitbucket/home/shared/plugins/installed-plugins/prereceive-plugin-1.0.0-SNAPSHOT.jar
+
+If you want to debug the Spring wiring of your code then set a DEBUG level log level as follows.  [ This is a dev.mode only message. ]
+	log4j.logger.com.samsung.ds.memory.swdev.prereceive-plugin.spring  = DEBUG, console, filelog
+
+2019-11-24 17:51:46,947 INFO  [spring-startup]  com.atlassian.plugin.util.WaitUntil Plugins that have yet to be enabled: (50): [com.atlassian.bitbucket.server.bitbucket-notification, com.atlassian.jwt.jwt-plugin, com.atlassian.bitbucket.server.bitbucket-audit, com.atlassian.bitbucket.server.bitbucket-git-lfs, com.atlassian.bitbucket.server.bitbucket-ref-restriction, com.atlassian.bitbucket.server.bitbucket-access-tokens, com.atlassian.stash.ssh-plugin, com.atlassian.bitbucket.server.bitbucket-contributing-guidelines, com.atlassian.plugins.shortcuts.atlassian-shortcuts-plugin, com.atlassian.bitbucket.server.bitbucket-jira-development-integration, com.atlassian.plugins.atlassian-connect-plugin, com.atlassian.prettyurls.atlassian-pretty-urls-plugin, com.atlassian.applinks.applinks-trustedapps-plugin, com.atlassian.bitbucket.server.bitbucket-importer, com.atlassian.bitbucket.server.bitbucket-build, com.atlassian.bitbucket.server.bitbucket-comment-likes, com.atlassian.plugins.atlassian-nav-links-plugin, com.atlassian.plugins.atlassian-remote-event-consumer-plugin, com.atlassian.plugins.atlassian-remote-event-common-plugin, com.atlassian.bitbucket.server.bitbucket-mirroring-upstream, com.atlassian.diagnostics.atlassian-diagnostics-plugin, com.atlassian.soy.soy-template-plugin, com.atlassian.plugins.base-hipchat-integration-plugin, com.atlassian.bitbucket.server.bitbucket-emoticons, com.atlassian.webhooks.atlassian-webhooks-plugin, com.atlassian.activeobjects.activeobjects-plugin, com.atlassian.bitbucket.server.bitbucket-repository-ref-sync, com.atlassian.bitbucket.server.bitbucket-xcode, com.atlassian.integration.jira.jira-integration-plugin, com.atlassian.bitbucket.server.bitbucket-search, com.atlassian.applinks.applinks-basicauth-plugin, com.atlassian.stash.plugins.stash-hipchat-integration-plugin, com.atlassian.bitbucket.server.bitbucket-webhooks, com.atlassian.bitbucket.server.bitbucket-gpg, com.atlassian.bitbucket.server.bitbucket-branch, com.atlassian.applinks.applinks-oauth-plugin, com.atlassian.stash.plugins.stash-remote-event-bitbucket-server-spi, com.atlassian.bitbucket.server.bitbucket-default-reviewers, com.atlassian.applinks.applinks-plugin, com.atlassian.plugins.authentication.atlassian-authentication-plugin, com.atlassian.troubleshooting.plugin-bitbucket, com.atlassian.bitbucket.server.bitbucket-bundled-hooks, com.atlassian.crowd.embedded.admin, com.atlassian.bitbucket.server.bitbucket-pull-request-cleanup, com.atlassian.plugins.base-hipchat-integration-plugin-api, com.atlassian.applinks.applinks-cors-plugin, com.atlassian.bitbucket.server.bitbucket-code-insights, com.atlassian.bitbucket.server.bitbucket-repository-shortcuts, com.atlassian.bitbucket.server.bitbucket-jira, com.atlassian.plugins.atlassian-remote-event-producer-plugin], 299 seconds remaining
+2019-11-24 17:51:47,080 WARN  [ThreadPoolAsyncTaskExecutor::Thread 2]  c.a.p.a.spring 
+Spring context started for bundle : com.atlassian.prettyurls.atlassian-pretty-urls-plugin id(113) v(2.1.5) reference:file:/C:/Users/KKP/Desktop/Repo/atlas/bitbucket_prereceive_plugin/target/bitbucket/app/WEB-INF/atlassian-bundled-plugins/atlassian-pretty-urls-plugin-2.1.5.jar
+
+If you want to debug the Spring wiring of your code then set a DEBUG level log level as follows.  [ This is a dev.mode only message. ]
+	log4j.logger.com.atlassian.prettyurls.atlassian-pretty-urls-plugin.spring  = DEBUG, console, filelog
+
+2019-11-24 17:51:47,425 WARN  [ThreadPoolAsyncTaskExecutor::Thread 18]  c.a.p.s.s.c.a.w.atlassian-webhooks-plugin Spring context started for bundle: com.atlassian.webhooks.atlassian-webhooks-plugin id(124) v(5.1.1) reference:file:/C:/Users/KKP/Desktop/Repo/atlas/bitbucket_prereceive_plugin/target/bitbucket/app/WEB-INF/atlassian-bundled-plugins/atlassian-webhooks-plugin-5.1.1.jar
+2019-11-24 17:51:48,081 INFO  [spring-startup]  com.atlassian.plugin.util.WaitUntil Plugins that have yet to be enabled: (45): [com.atlassian.bitbucket.server.bitbucket-notification, com.atlassian.jwt.jwt-plugin, com.atlassian.bitbucket.server.bitbucket-audit, com.atlassian.bitbucket.server.bitbucket-git-lfs, com.atlassian.bitbucket.server.bitbucket-ref-restriction, com.atlassian.bitbucket.server.bitbucket-access-tokens, com.atlassian.stash.ssh-plugin, com.atlassian.bitbucket.server.bitbucket-contributing-guidelines, com.atlassian.bitbucket.server.bitbucket-jira-development-integration, com.atlassian.plugins.atlassian-connect-plugin, com.atlassian.applinks.applinks-trustedapps-plugin, com.atlassian.bitbucket.server.bitbucket-importer, com.atlassian.bitbucket.server.bitbucket-build, com.atlassian.bitbucket.server.bitbucket-comment-likes, com.atlassian.plugins.atlassian-nav-links-plugin, com.atlassian.plugins.atlassian-remote-event-consumer-plugin, com.atlassian.plugins.atlassian-remote-event-common-plugin, com.atlassian.bitbucket.server.bitbucket-mirroring-upstream, com.atlassian.diagnostics.atlassian-diagnostics-plugin, com.atlassian.soy.soy-template-plugin, com.atlassian.plugins.base-hipchat-integration-plugin, com.atlassian.bitbucket.server.bitbucket-emoticons, com.atlassian.webhooks.atlassian-webhooks-plugin, com.atlassian.bitbucket.server.bitbucket-repository-ref-sync, com.atlassian.bitbucket.server.bitbucket-xcode, com.atlassian.integration.jira.jira-integration-plugin, com.atlassian.bitbucket.server.bitbucket-search, com.atlassian.applinks.applinks-basicauth-plugin, com.atlassian.stash.plugins.stash-hipchat-integration-plugin, com.atlassian.bitbucket.server.bitbucket-webhooks, com.atlassian.bitbucket.server.bitbucket-gpg, com.atlassian.bitbucket.server.bitbucket-branch, com.atlassian.applinks.applinks-oauth-plugin, com.atlassian.stash.plugins.stash-remote-event-bitbucket-server-spi, com.atlassian.bitbucket.server.bitbucket-default-reviewers, com.atlassian.applinks.applinks-plugin, com.atlassian.plugins.authentication.atlassian-authentication-plugin, com.atlassian.troubleshooting.plugin-bitbucket, com.atlassian.bitbucket.server.bitbucket-bundled-hooks, com.atlassian.bitbucket.server.bitbucket-pull-request-cleanup, com.atlassian.plugins.base-hipchat-integration-plugin-api, com.atlassian.applinks.applinks-cors-plugin, com.atlassian.bitbucket.server.bitbucket-repository-shortcuts, com.atlassian.bitbucket.server.bitbucket-jira, com.atlassian.plugins.atlassian-remote-event-producer-plugin], 298 seconds remaining
+2019-11-24 17:51:48,350 WARN  [ThreadPoolAsyncTaskExecutor::Thread 1]  c.a.p.a.a.spring 
+Spring context started for bundle : com.atlassian.plugins.authentication.atlassian-authentication-plugin id(103) v(2.1.0) reference:file:/C:/Users/KKP/Desktop/Repo/atlas/bitbucket_prereceive_plugin/target/bitbucket/app/WEB-INF/atlassian-bundled-plugins/atlassian-authentication-plugin-2.1.0.jar
+
+If you want to debug the Spring wiring of your code then set a DEBUG level log level as follows.  [ This is a dev.mode only message. ]
+	log4j.logger.com.atlassian.plugins.authentication.atlassian-authentication-plugin.spring  = DEBUG, console, filelog
+
+2019-11-24 17:51:49,074 WARN  [ThreadPoolAsyncTaskExecutor::Thread 15]  c.a.t.plugin-bitbucket.spring 
+Spring context started for bundle : com.atlassian.troubleshooting.plugin-bitbucket id(121) v(1.12.4) reference:file:/C:/Users/KKP/Desktop/Repo/atlas/bitbucket_prereceive_plugin/target/bitbucket/app/WEB-INF/atlassian-bundled-plugins/plugin-bitbucket-1.12.4.jar
+
+If you want to debug the Spring wiring of your code then set a DEBUG level log level as follows.  [ This is a dev.mode only message. ]
+	log4j.logger.com.atlassian.troubleshooting.plugin-bitbucket.spring  = DEBUG, console, filelog
+
+2019-11-24 17:51:49,085 INFO  [spring-startup]  com.atlassian.plugin.util.WaitUntil Plugins that have yet to be enabled: (16): [com.atlassian.bitbucket.server.bitbucket-git-lfs, com.atlassian.bitbucket.server.bitbucket-jira-development-integration, com.atlassian.plugins.atlassian-connect-plugin, com.atlassian.applinks.applinks-trustedapps-plugin, com.atlassian.plugins.atlassian-nav-links-plugin, com.atlassian.plugins.atlassian-remote-event-consumer-plugin, com.atlassian.plugins.atlassian-remote-event-common-plugin, com.atlassian.bitbucket.server.bitbucket-mirroring-upstream, com.atlassian.bitbucket.server.bitbucket-search, com.atlassian.bitbucket.server.bitbucket-branch, com.atlassian.applinks.applinks-oauth-plugin, com.atlassian.stash.plugins.stash-remote-event-bitbucket-server-spi, com.atlassian.applinks.applinks-plugin, com.atlassian.troubleshooting.plugin-bitbucket, com.atlassian.bitbucket.server.bitbucket-jira, com.atlassian.plugins.atlassian-remote-event-producer-plugin], 297 seconds remaining
+2019-11-24 17:51:49,240 WARN  [ThreadPoolAsyncTaskExecutor::Thread 11]  c.a.p.a.spring 
+Spring context started for bundle : com.atlassian.plugins.atlassian-remote-event-common-plugin id(100) v(4.0.0) reference:file:/C:/Users/KKP/Desktop/Repo/atlas/bitbucket_prereceive_plugin/target/bitbucket/app/WEB-INF/atlassian-bundled-plugins/atlassian-remote-event-common-plugin-4.0.0.jar
+
+If you want to debug the Spring wiring of your code then set a DEBUG level log level as follows.  [ This is a dev.mode only message. ]
+	log4j.logger.com.atlassian.plugins.atlassian-remote-event-common-plugin.spring  = DEBUG, console, filelog
+
+2019-11-24 17:51:49,287 WARN  [ThreadPoolAsyncTaskExecutor::Thread 4]  c.a.p.s.s.c.a.p.atlassian-connect-plugin Spring context started for bundle: com.atlassian.plugins.atlassian-connect-plugin id(96) v(1.1.100) reference:file:/C:/Users/KKP/Desktop/Repo/atlas/bitbucket_prereceive_plugin/target/bitbucket/app/WEB-INF/atlassian-bundled-plugins/atlassian-connect-plugin-1.1.100.jar
+2019-11-24 17:51:49,506 WARN  [ThreadPoolAsyncTaskExecutor::Thread 15]  c.a.p.a.spring 
+Spring context started for bundle : com.atlassian.plugins.atlassian-remote-event-consumer-plugin id(101) v(4.0.0) reference:file:/C:/Users/KKP/Desktop/Repo/atlas/bitbucket_prereceive_plugin/target/bitbucket/app/WEB-INF/atlassian-bundled-plugins/atlassian-remote-event-consumer-plugin-4.0.0.jar
+
+If you want to debug the Spring wiring of your code then set a DEBUG level log level as follows.  [ This is a dev.mode only message. ]
+	log4j.logger.com.atlassian.plugins.atlassian-remote-event-consumer-plugin.spring  = DEBUG, console, filelog
+
+2019-11-24 17:51:49,507 WARN  [ThreadPoolAsyncTaskExecutor::Thread 16]  c.a.p.a.spring 
+Spring context started for bundle : com.atlassian.plugins.atlassian-remote-event-producer-plugin id(102) v(4.0.0) reference:file:/C:/Users/KKP/Desktop/Repo/atlas/bitbucket_prereceive_plugin/target/bitbucket/app/WEB-INF/atlassian-bundled-plugins/atlassian-remote-event-producer-plugin-4.0.0.jar
+
+If you want to debug the Spring wiring of your code then set a DEBUG level log level as follows.  [ This is a dev.mode only message. ]
+	log4j.logger.com.atlassian.plugins.atlassian-remote-event-producer-plugin.spring  = DEBUG, console, filelog
+
+2019-11-24 17:51:49,566 WARN  [ThreadPoolAsyncTaskExecutor::Thread 11]  c.a.s.p.s.spring 
+Spring context started for bundle : com.atlassian.stash.plugins.stash-remote-event-bitbucket-server-spi id(117) v(0.9.0) reference:file:/C:/Users/KKP/Desktop/Repo/atlas/bitbucket_prereceive_plugin/target/bitbucket/app/WEB-INF/atlassian-bundled-plugins/stash-remote-event-bitbucket-server-spi-0.9.0.jar
+
+If you want to debug the Spring wiring of your code then set a DEBUG level log level as follows.  [ This is a dev.mode only message. ]
+	log4j.logger.com.atlassian.stash.plugins.stash-remote-event-bitbucket-server-spi.spring  = DEBUG, console, filelog
+
+2019-11-24 17:51:50,090 INFO  [spring-startup]  com.atlassian.plugin.util.WaitUntil Plugins that have yet to be enabled: (2): [com.atlassian.plugins.atlassian-connect-plugin, com.atlassian.bitbucket.server.bitbucket-mirroring-upstream], 296 seconds remaining
+2019-11-24 17:51:57,977 WARN  [spring-startup]  c.a.s.i.p.s.OsgiBundledPathScanner Cannot scan directory /com/atlassian/oauth/shared/servlet/ in bundle com.atlassian.oauth.atlassian-oauth-service-provider-plugin; it does not exist
+2019-11-24 17:51:59,095 WARN  [spring-startup]  c.a.s.i.p.s.OsgiBundledPathScanner Cannot scan directory /com/atlassian/oauth/shared/servlet/ in bundle tac.bitbucket.languages.de_DE; it does not exist
+2019-11-24 17:51:59,105 WARN  [spring-startup]  c.a.s.i.p.s.OsgiBundledPathScanner Cannot scan directory /com/atlassian/oauth/shared/servlet/ in bundle tac.bitbucket.languages.fr_FR; it does not exist
+2019-11-24 17:51:59,120 WARN  [spring-startup]  c.a.s.i.p.s.OsgiBundledPathScanner Cannot scan directory /com/atlassian/oauth/shared/servlet/ in bundle tac.bitbucket.languages.ja_JP; it does not exist
+2019-11-24 17:51:59,133 WARN  [spring-startup]  c.a.stash.internal.home.HomeTracker The shared home directory has been moved from /buildeng/bamboo-agent-home/xml-data/build-dir/BSERV-BR516RELEASE-PERFORM/target/checkout/func-test/plugin-test-resources/target/bitbucket/home/shared to C:\Users\KKP\Desktop\Repo\atlas\bitbucket_prereceive_plugin\target\bitbucket\home\shared
+2019-11-24 17:51:59,230 INFO  [spring-startup]  c.a.stash.internal.home.HomeTracker Invoking 1 handler(s) after shared home directory update
+2019-11-24 17:51:59,238 INFO  [spring-startup]  c.a.stash.internal.home.HomeTracker 1 handler(s) have applied the home directory update successfully
+2019-11-24 17:51:59,238 INFO  [spring-startup]  c.a.stash.internal.home.HomeTracker Updating benchmark shared home directory: C:\Users\KKP\Desktop\Repo\atlas\bitbucket_prereceive_plugin\target\bitbucket\home\shared
+2019-11-24 17:51:59,296 INFO  [spring-startup]  c.a.s.internal.scm.PluginScmService Bitbucket is using D:\Program Files\Git\cmd\git.exe version 2.19.1
+2019-11-24 17:52:00,622 INFO  [spring-startup]  c.a.b.s.i.EmbeddedElasticsearch Starting Elasticsearch 5.5.3 on ports: 7992/http, 7993/tcp...
+2019-11-24 17:52:00,629 INFO  [spring-startup]  c.a.b.s.i.EmbeddedElasticsearch Started Elasticsearch successfully.
+2019-11-24 17:52:00,703 INFO  [spring-startup]  c.a.b.internal.ssh.server.SshServer Starting SSH server on port 7999...
+2019-11-24 17:52:00,792 INFO  [spring-startup]  c.a.b.i.ssh.server.SshServerFactory Using built in SSHD NIO service factory
+2019-11-24 17:52:00,812 INFO  [spring-startup]  c.a.b.internal.ssh.server.SshServer Started SSH server successfully.
+2019-11-24 17:52:01,025 INFO  [spring-startup]  c.a.b.i.s.i.e.DefaultIndexEventQueueProcessor Event queue processor has been started
+2019-11-24 17:52:01,025 INFO  [spring-startup]  c.a.b.i.s.c.c.DefaultClusterJobManager Registering job for ElasticsearchSynchronizeJob
+2019-11-24 17:52:01,085 INFO  [spring-startup]  c.a.b.i.s.c.j.c.HealthCheckRunner New health check registered: SearchIndexCheck
+2019-11-24 17:52:01,090 INFO  [spring-startup]  c.a.b.i.s.c.c.DefaultClusterJobManager Registering job for StartupChecksJob
+2019-11-24 17:52:01,093 INFO  [spring-startup]  c.a.b.i.s.c.j.c.HealthCheckRunner New health check registered: AuthenticationCheck
+2019-11-24 17:52:01,093 INFO  [spring-startup]  c.a.b.i.s.c.j.c.HealthCheckRunner New health check registered: KnownIssueCheck
+2019-11-24 17:52:01,166 INFO  [spring-startup]  c.a.s.i.hazelcast.HazelcastLifecycle Updating Hazelcast instance capabilities
+2019-11-24 17:52:01,290 INFO  [main]  c.a.b.i.b.BitbucketServerApplication Started BitbucketServerApplication in 84.527 seconds (JVM running for 91.226)
+2019-11-24 17:52:03,356 WARN  [UpmScheduler:thread-1]  com.atlassian.upm.pac.PacClientImpl Update check request may take longer because of the number of apps
+2019-11-24 17:52:11,094 INFO  [Caesium-1-2]  c.a.b.i.s.i.jobs.StartupChecksJob Attempting provisioning in startup job
+2019-11-24 17:52:11,102 INFO  [Caesium-1-4]  c.a.b.i.s.c.j.c.HealthCheckRunner Running up to 3 search health checks
+2019-11-24 17:52:11,159 INFO  [Caesium-1-1]  c.a.s.i.p.PullRequestCommitBackfillJob Starting backfill of pull request commits.
+2019-11-24 17:52:11,168 INFO  [I/O dispatcher 1]  c.a.b.s.s.t.DefaultElasticsearchConnectionTester Connected to Elasticsearch version 5.5.3
+2019-11-24 17:52:11,168 INFO  [I/O dispatcher 9]  c.a.b.s.s.t.DefaultElasticsearchConnectionTester Connected to Elasticsearch version 5.5.3
+2019-11-24 17:52:11,181 INFO  [I/O dispatcher 25]  c.a.b.s.s.t.DefaultElasticsearchConnectionTester Connected to Elasticsearch version 5.5.3
+2019-11-24 17:52:11,184 INFO  [Caesium-1-2]  c.a.b.i.s.c.s.p.AutomaticAuthenticationProvisioner Skipping automatic auth configuration: Authentication is disabled on Elasticsearch instance
+2019-11-24 17:52:11,185 INFO  [Caesium-1-2]  c.a.b.i.s.i.jobs.StartupChecksJob Running startup jobs for search
+2019-11-24 17:52:11,251 INFO  [Caesium-1-4]  c.a.b.i.s.i.j.checks.KnownIssueCheck Checking for and repairing known search index issue caused by UNKNOWN change types
+2019-11-24 17:52:11,291 INFO  [Caesium-1-4]  c.a.b.i.s.c.j.c.HealthCheckRunner Health checks will run again after PT5M
+2019-11-24 17:52:11,351 INFO  [Caesium-1-1]  c.a.s.i.p.PullRequestCommitBackfillJob Backfilling of pull request commits has completed for all repositories.
+2019-11-24 17:52:12,314 WARN  [embedded-es:thread-2]  c.a.b.s.i.EmbeddedElasticsearch Elasticsearch exited irregularly - see logs for details.
+2019-11-24 17:52:19,784 INFO  [http-nio-7990-exec-2] @6SF23Xx1072x1x0 0:0:0:0:0:0:0:1 "GET / HTTP/1.1" c.a.s.i.a.DefaultRememberMeService Invalid remember-me cookie detected (expired) - canceling the cookie
+2019-11-24 17:52:42,765 WARN  [http-nio-7990-exec-4] admin @6SF23Xx1072x31x2 jb2fpm 0:0:0:0:0:0:0:1 "GET /rest/plugins/1.0/installed-marketplace HTTP/1.1" com.atlassian.upm.pac.PacClientImpl Update check request may take longer because of the number of apps
+2019-11-24 17:54:29,158 WARN  [main]  com.atlassian.plugin.util.WaitUntil Switching to log level [INFO]
+2019-11-24 17:54:29,172 INFO  [main]  c.a.stash.internal.scm.git.command Switching to log level [WARN]
+2019-11-24 17:54:29,172 INFO  [main]  com.atlassian.stash.internal.project Switching to log level [WARN]
+2019-11-24 17:54:29,194 INFO  [main]  o.s.boot.SpringApplication 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::       (v1.5.17.RELEASE)
+
+
+2019-11-24 17:54:29,436 INFO  [main]  c.a.b.i.b.BitbucketServerApplication Starting BitbucketServerApplication on DESKTOP-VQHCL4H with PID 31352 (C:\Users\KKP\Desktop\Repo\atlas\bitbucket_prereceive_plugin\target\bitbucket\app\WEB-INF\classes started by KKP in C:\Users\KKP\Desktop\Repo\atlas\bitbucket_prereceive_plugin)
+2019-11-24 17:54:29,436 INFO  [main]  c.a.b.i.b.BitbucketServerApplication No active profile set, falling back to default profiles: default
+2019-11-24 17:54:30,908 INFO  [main]  c.a.b.i.boot.log.BuildInfoLogger Starting Bitbucket 5.16.0 (c03f0a7 built on Fri Nov 16 13:10:50 KST 2018)
+2019-11-24 17:54:30,908 INFO  [main]  c.a.b.i.boot.log.BuildInfoLogger JVM: Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 1.8.0_191-b12
+2019-11-24 17:54:40,591 INFO  [spring-startup]  c.a.s.internal.home.HomeLockAcquirer Successfully acquired lock on home directory C:\Users\KKP\Desktop\Repo\atlas\bitbucket_prereceive_plugin\target\bitbucket\home
+2019-11-24 17:54:51,950 INFO  [spring-startup]  c.a.s.internal.home.HomeLockAcquirer Successfully acquired lock on home directory C:\Users\KKP\Desktop\Repo\atlas\bitbucket_prereceive_plugin\target\bitbucket\home\shared
+2019-11-24 17:54:55,374 WARN  [spring-startup]  com.hazelcast.instance.Node [192.168.0.6]:5701 [KKP] [3.7.4-atlassian-43] No join method is enabled! Starting standalone.
+2019-11-24 17:55:19,102 INFO  [spring-startup]  c.a.s.i.hook.DefaultHookService Hook callback socket listening on 127.0.0.1:5422
+2019-11-24 17:55:21,175 INFO  [spring-startup]  c.a.s.i.s.g.t.DefaultTranscodeServer Callback socket listening at 127.0.0.1:5423
+2019-11-24 17:55:34,036 WARN  [ThreadPoolAsyncTaskExecutor::Thread 9]  c.s.d.m.s.prereceive-plugin.spring 
+Spring context started for bundle : com.samsung.ds.memory.swdev.prereceive-plugin id(125) v(1.0.0.SNAPSHOT) file:/C:/Users/KKP/Desktop/Repo/atlas/bitbucket_prereceive_plugin/target/bitbucket/home/shared/plugins/installed-plugins/prereceive-plugin-1.0.0-SNAPSHOT.jar
+
+If you want to debug the Spring wiring of your code then set a DEBUG level log level as follows.  [ This is a dev.mode only message. ]
+	log4j.logger.com.samsung.ds.memory.swdev.prereceive-plugin.spring  = DEBUG, console, filelog
+
+2019-11-24 17:55:34,275 INFO  [spring-startup]  com.atlassian.plugin.util.WaitUntil Plugins that have yet to be enabled: (51): [com.atlassian.activeobjects.activeobjects-plugin, com.atlassian.stash.plugins.stash-remote-event-bitbucket-server-spi, com.atlassian.bitbucket.server.bitbucket-mirroring-upstream, com.atlassian.bitbucket.server.bitbucket-default-reviewers, com.atlassian.plugins.base-hipchat-integration-plugin, com.atlassian.bitbucket.server.bitbucket-repository-shortcuts, com.atlassian.bitbucket.server.bitbucket-importer, com.atlassian.bitbucket.server.bitbucket-code-insights, com.atlassian.plugins.atlassian-remote-event-producer-plugin, com.atlassian.bitbucket.server.bitbucket-access-tokens, com.atlassian.upm.atlassian-universal-plugin-manager-plugin, com.atlassian.jwt.jwt-plugin, com.atlassian.plugins.atlassian-remote-event-common-plugin, com.atlassian.bitbucket.server.bitbucket-xcode, com.atlassian.bitbucket.server.bitbucket-comment-likes, com.atlassian.plugins.authentication.atlassian-authentication-plugin, com.atlassian.bitbucket.server.bitbucket-repository-ref-sync, com.atlassian.webhooks.atlassian-webhooks-plugin, com.atlassian.bitbucket.server.bitbucket-git-lfs, com.atlassian.troubleshooting.plugin-bitbucket, com.atlassian.bitbucket.server.bitbucket-contributing-guidelines, com.atlassian.plugins.atlassian-connect-plugin, com.atlassian.plugins.base-hipchat-integration-plugin-api, com.atlassian.applinks.applinks-trustedapps-plugin, com.atlassian.bitbucket.server.bitbucket-search, com.atlassian.stash.plugins.stash-hipchat-integration-plugin, com.atlassian.bitbucket.server.bitbucket-jira-development-integration, com.atlassian.bitbucket.server.bitbucket-build, com.atlassian.prettyurls.atlassian-pretty-urls-plugin, com.atlassian.plugins.atlassian-nav-links-plugin, com.atlassian.bitbucket.server.bitbucket-branch, com.atlassian.integration.jira.jira-integration-plugin, com.atlassian.bitbucket.server.bitbucket-jira, com.atlassian.bitbucket.server.bitbucket-webhooks, com.atlassian.stash.ssh-plugin, com.atlassian.crowd.embedded.admin, com.atlassian.plugins.atlassian-remote-event-consumer-plugin, com.atlassian.bitbucket.server.bitbucket-gpg, com.atlassian.bitbucket.server.bitbucket-audit, com.atlassian.plugins.less-transformer-plugin, com.atlassian.bitbucket.server.bitbucket-bundled-hooks, com.atlassian.bitbucket.server.bitbucket-pull-request-cleanup, com.atlassian.diagnostics.atlassian-diagnostics-plugin, com.atlassian.applinks.applinks-basicauth-plugin, com.atlassian.bitbucket.server.bitbucket-emoticons, com.atlassian.soy.soy-template-plugin, com.atlassian.bitbucket.server.bitbucket-ref-restriction, com.atlassian.applinks.applinks-cors-plugin, com.atlassian.bitbucket.server.bitbucket-notification, com.atlassian.applinks.applinks-plugin, com.atlassian.applinks.applinks-oauth-plugin], 299 seconds remaining
+2019-11-24 17:55:34,442 WARN  [ThreadPoolAsyncTaskExecutor::Thread 3]  c.a.p.a.spring 
+Spring context started for bundle : com.atlassian.prettyurls.atlassian-pretty-urls-plugin id(113) v(2.1.5) reference:file:/C:/Users/KKP/Desktop/Repo/atlas/bitbucket_prereceive_plugin/target/bitbucket/app/WEB-INF/atlassian-bundled-plugins/atlassian-pretty-urls-plugin-2.1.5.jar
+
+If you want to debug the Spring wiring of your code then set a DEBUG level log level as follows.  [ This is a dev.mode only message. ]
+	log4j.logger.com.atlassian.prettyurls.atlassian-pretty-urls-plugin.spring  = DEBUG, console, filelog
+
+2019-11-24 17:55:35,782 INFO  [spring-startup]  com.atlassian.plugin.util.WaitUntil Plugins that have yet to be enabled: (41): [com.atlassian.activeobjects.activeobjects-plugin, com.atlassian.stash.plugins.stash-remote-event-bitbucket-server-spi, com.atlassian.bitbucket.server.bitbucket-mirroring-upstream, com.atlassian.bitbucket.server.bitbucket-default-reviewers, com.atlassian.plugins.base-hipchat-integration-plugin, com.atlassian.bitbucket.server.bitbucket-repository-shortcuts, com.atlassian.bitbucket.server.bitbucket-importer, com.atlassian.bitbucket.server.bitbucket-code-insights, com.atlassian.plugins.atlassian-remote-event-producer-plugin, com.atlassian.bitbucket.server.bitbucket-access-tokens, com.atlassian.plugins.atlassian-remote-event-common-plugin, com.atlassian.bitbucket.server.bitbucket-comment-likes, com.atlassian.plugins.authentication.atlassian-authentication-plugin, com.atlassian.bitbucket.server.bitbucket-repository-ref-sync, com.atlassian.webhooks.atlassian-webhooks-plugin, com.atlassian.bitbucket.server.bitbucket-git-lfs, com.atlassian.troubleshooting.plugin-bitbucket, com.atlassian.plugins.atlassian-connect-plugin, com.atlassian.plugins.base-hipchat-integration-plugin-api, com.atlassian.applinks.applinks-trustedapps-plugin, com.atlassian.bitbucket.server.bitbucket-search, com.atlassian.stash.plugins.stash-hipchat-integration-plugin, com.atlassian.bitbucket.server.bitbucket-jira-development-integration, com.atlassian.bitbucket.server.bitbucket-build, com.atlassian.plugins.atlassian-nav-links-plugin, com.atlassian.bitbucket.server.bitbucket-branch, com.atlassian.bitbucket.server.bitbucket-jira, com.atlassian.bitbucket.server.bitbucket-webhooks, com.atlassian.stash.ssh-plugin, com.atlassian.crowd.embedded.admin, com.atlassian.plugins.atlassian-remote-event-consumer-plugin, com.atlassian.bitbucket.server.bitbucket-gpg, com.atlassian.bitbucket.server.bitbucket-audit, com.atlassian.bitbucket.server.bitbucket-pull-request-cleanup, com.atlassian.applinks.applinks-basicauth-plugin, com.atlassian.bitbucket.server.bitbucket-emoticons, com.atlassian.bitbucket.server.bitbucket-ref-restriction, com.atlassian.applinks.applinks-cors-plugin, com.atlassian.bitbucket.server.bitbucket-notification, com.atlassian.applinks.applinks-plugin, com.atlassian.applinks.applinks-oauth-plugin], 298 seconds remaining
+2019-11-24 17:55:35,875 WARN  [ThreadPoolAsyncTaskExecutor::Thread 28]  c.a.p.s.s.c.a.w.atlassian-webhooks-plugin Spring context started for bundle: com.atlassian.webhooks.atlassian-webhooks-plugin id(124) v(5.1.1) reference:file:/C:/Users/KKP/Desktop/Repo/atlas/bitbucket_prereceive_plugin/target/bitbucket/app/WEB-INF/atlassian-bundled-plugins/atlassian-webhooks-plugin-5.1.1.jar
+2019-11-24 17:55:35,956 WARN  [ThreadPoolAsyncTaskExecutor::Thread 12]  c.a.p.a.a.spring 
+Spring context started for bundle : com.atlassian.plugins.authentication.atlassian-authentication-plugin id(103) v(2.1.0) reference:file:/C:/Users/KKP/Desktop/Repo/atlas/bitbucket_prereceive_plugin/target/bitbucket/app/WEB-INF/atlassian-bundled-plugins/atlassian-authentication-plugin-2.1.0.jar
+
+If you want to debug the Spring wiring of your code then set a DEBUG level log level as follows.  [ This is a dev.mode only message. ]
+	log4j.logger.com.atlassian.plugins.authentication.atlassian-authentication-plugin.spring  = DEBUG, console, filelog
+
+2019-11-24 17:55:35,999 WARN  [ThreadPoolAsyncTaskExecutor::Thread 25]  c.a.t.plugin-bitbucket.spring 
+Spring context started for bundle : com.atlassian.troubleshooting.plugin-bitbucket id(121) v(1.12.4) reference:file:/C:/Users/KKP/Desktop/Repo/atlas/bitbucket_prereceive_plugin/target/bitbucket/app/WEB-INF/atlassian-bundled-plugins/plugin-bitbucket-1.12.4.jar
+
+If you want to debug the Spring wiring of your code then set a DEBUG level log level as follows.  [ This is a dev.mode only message. ]
+	log4j.logger.com.atlassian.troubleshooting.plugin-bitbucket.spring  = DEBUG, console, filelog
+
+2019-11-24 17:55:36,149 WARN  [ThreadPoolAsyncTaskExecutor::Thread 14]  c.a.p.a.spring 
+Spring context started for bundle : com.atlassian.plugins.atlassian-remote-event-common-plugin id(100) v(4.0.0) reference:file:/C:/Users/KKP/Desktop/Repo/atlas/bitbucket_prereceive_plugin/target/bitbucket/app/WEB-INF/atlassian-bundled-plugins/atlassian-remote-event-common-plugin-4.0.0.jar
+
+If you want to debug the Spring wiring of your code then set a DEBUG level log level as follows.  [ This is a dev.mode only message. ]
+	log4j.logger.com.atlassian.plugins.atlassian-remote-event-common-plugin.spring  = DEBUG, console, filelog
+
+2019-11-24 17:55:36,359 WARN  [ThreadPoolAsyncTaskExecutor::Thread 23]  c.a.p.s.s.c.a.p.atlassian-connect-plugin Spring context started for bundle: com.atlassian.plugins.atlassian-connect-plugin id(96) v(1.1.100) reference:file:/C:/Users/KKP/Desktop/Repo/atlas/bitbucket_prereceive_plugin/target/bitbucket/app/WEB-INF/atlassian-bundled-plugins/atlassian-connect-plugin-1.1.100.jar
+2019-11-24 17:55:36,504 WARN  [ThreadPoolAsyncTaskExecutor::Thread 25]  c.a.p.a.spring 
+Spring context started for bundle : com.atlassian.plugins.atlassian-remote-event-consumer-plugin id(101) v(4.0.0) reference:file:/C:/Users/KKP/Desktop/Repo/atlas/bitbucket_prereceive_plugin/target/bitbucket/app/WEB-INF/atlassian-bundled-plugins/atlassian-remote-event-consumer-plugin-4.0.0.jar
+
+If you want to debug the Spring wiring of your code then set a DEBUG level log level as follows.  [ This is a dev.mode only message. ]
+	log4j.logger.com.atlassian.plugins.atlassian-remote-event-consumer-plugin.spring  = DEBUG, console, filelog
+
+2019-11-24 17:55:36,511 WARN  [ThreadPoolAsyncTaskExecutor::Thread 12]  c.a.p.a.spring 
+Spring context started for bundle : com.atlassian.plugins.atlassian-remote-event-producer-plugin id(102) v(4.0.0) reference:file:/C:/Users/KKP/Desktop/Repo/atlas/bitbucket_prereceive_plugin/target/bitbucket/app/WEB-INF/atlassian-bundled-plugins/atlassian-remote-event-producer-plugin-4.0.0.jar
+
+If you want to debug the Spring wiring of your code then set a DEBUG level log level as follows.  [ This is a dev.mode only message. ]
+	log4j.logger.com.atlassian.plugins.atlassian-remote-event-producer-plugin.spring  = DEBUG, console, filelog
+
+2019-11-24 17:55:36,595 WARN  [ThreadPoolAsyncTaskExecutor::Thread 9]  c.a.s.p.s.spring 
+Spring context started for bundle : com.atlassian.stash.plugins.stash-remote-event-bitbucket-server-spi id(117) v(0.9.0) reference:file:/C:/Users/KKP/Desktop/Repo/atlas/bitbucket_prereceive_plugin/target/bitbucket/app/WEB-INF/atlassian-bundled-plugins/stash-remote-event-bitbucket-server-spi-0.9.0.jar
+
+If you want to debug the Spring wiring of your code then set a DEBUG level log level as follows.  [ This is a dev.mode only message. ]
+	log4j.logger.com.atlassian.stash.plugins.stash-remote-event-bitbucket-server-spi.spring  = DEBUG, console, filelog
+
+2019-11-24 17:55:36,784 INFO  [spring-startup]  com.atlassian.plugin.util.WaitUntil Plugins that have yet to be enabled: (4): [com.atlassian.bitbucket.server.bitbucket-mirroring-upstream, com.atlassian.plugins.base-hipchat-integration-plugin, com.atlassian.plugins.atlassian-connect-plugin, com.atlassian.bitbucket.server.bitbucket-search], 297 seconds remaining
+2019-11-24 17:55:45,285 WARN  [spring-startup]  c.a.s.i.p.s.OsgiBundledPathScanner Cannot scan directory /com/atlassian/oauth/shared/servlet/ in bundle com.atlassian.oauth.atlassian-oauth-service-provider-plugin; it does not exist
+2019-11-24 17:55:46,441 WARN  [spring-startup]  c.a.s.i.p.s.OsgiBundledPathScanner Cannot scan directory /com/atlassian/oauth/shared/servlet/ in bundle tac.bitbucket.languages.de_DE; it does not exist
+2019-11-24 17:55:46,447 WARN  [spring-startup]  c.a.s.i.p.s.OsgiBundledPathScanner Cannot scan directory /com/atlassian/oauth/shared/servlet/ in bundle tac.bitbucket.languages.fr_FR; it does not exist
+2019-11-24 17:55:46,462 WARN  [spring-startup]  c.a.s.i.p.s.OsgiBundledPathScanner Cannot scan directory /com/atlassian/oauth/shared/servlet/ in bundle tac.bitbucket.languages.ja_JP; it does not exist
+2019-11-24 17:55:46,836 INFO  [spring-startup]  c.a.b.s.i.EmbeddedElasticsearch Starting Elasticsearch 5.5.3 on ports: 7992/http, 7993/tcp...
+2019-11-24 17:55:46,842 INFO  [spring-startup]  c.a.b.s.i.EmbeddedElasticsearch Started Elasticsearch successfully.
+2019-11-24 17:55:46,912 INFO  [spring-startup]  c.a.b.internal.ssh.server.SshServer Starting SSH server on port 7999...
+2019-11-24 17:55:46,986 INFO  [spring-startup]  c.a.b.i.ssh.server.SshServerFactory Using built in SSHD NIO service factory
+2019-11-24 17:55:47,006 INFO  [spring-startup]  c.a.b.internal.ssh.server.SshServer Started SSH server successfully.
+2019-11-24 17:55:47,238 INFO  [spring-startup]  c.a.b.i.s.c.j.c.HealthCheckRunner New health check registered: AuthenticationCheck
+2019-11-24 17:55:47,238 INFO  [spring-startup]  c.a.b.i.s.c.j.c.HealthCheckRunner New health check registered: SearchIndexCheck
+2019-11-24 17:55:47,238 INFO  [spring-startup]  c.a.b.i.s.c.c.DefaultClusterJobManager Registering job for StartupChecksJob
+2019-11-24 17:55:47,299 INFO  [spring-startup]  c.a.b.i.s.c.c.DefaultClusterJobManager Registering job for ElasticsearchSynchronizeJob
+2019-11-24 17:55:47,306 INFO  [spring-startup]  c.a.b.i.s.i.e.DefaultIndexEventQueueProcessor Event queue processor has been started
+2019-11-24 17:55:47,306 INFO  [spring-startup]  c.a.b.i.s.c.j.c.HealthCheckRunner New health check registered: KnownIssueCheck
+2019-11-24 17:55:47,335 INFO  [spring-startup]  c.a.s.internal.scm.PluginScmService Bitbucket is using D:\Program Files\Git\cmd\git.exe version 2.19.1
+2019-11-24 17:55:47,432 INFO  [spring-startup]  c.a.s.i.hazelcast.HazelcastLifecycle Updating Hazelcast instance capabilities
+2019-11-24 17:55:47,566 INFO  [main]  c.a.b.i.b.BitbucketServerApplication Started BitbucketServerApplication in 79.309 seconds (JVM running for 86.227)
+2019-11-24 17:55:49,383 WARN  [UpmScheduler:thread-1]  com.atlassian.upm.pac.PacClientImpl Update check request may take longer because of the number of apps
+2019-11-24 17:55:57,239 INFO  [Caesium-1-1]  c.a.b.i.s.c.j.c.HealthCheckRunner Running up to 3 search health checks
+2019-11-24 17:55:57,241 INFO  [Caesium-1-3]  c.a.b.i.s.i.jobs.StartupChecksJob Attempting provisioning in startup job
+2019-11-24 17:55:57,313 INFO  [I/O dispatcher 1]  c.a.b.s.s.t.DefaultElasticsearchConnectionTester Connected to Elasticsearch version 5.5.3
+2019-11-24 17:55:57,313 INFO  [I/O dispatcher 2]  c.a.b.s.s.t.DefaultElasticsearchConnectionTester Connected to Elasticsearch version 5.5.3
+2019-11-24 17:55:57,327 INFO  [I/O dispatcher 25]  c.a.b.s.s.t.DefaultElasticsearchConnectionTester Connected to Elasticsearch version 5.5.3
+2019-11-24 17:55:57,329 INFO  [Caesium-1-3]  c.a.b.i.s.c.s.p.AutomaticAuthenticationProvisioner Skipping automatic auth configuration: Authentication is disabled on Elasticsearch instance
+2019-11-24 17:55:57,330 INFO  [Caesium-1-3]  c.a.b.i.s.i.jobs.StartupChecksJob Running startup jobs for search
+2019-11-24 17:55:57,368 INFO  [Caesium-1-1]  c.a.b.i.s.c.j.c.HealthCheckRunner Health checks will run again after PT5M
+2019-11-24 17:55:57,634 WARN  [embedded-es:thread-2]  c.a.b.s.i.EmbeddedElasticsearch Elasticsearch exited irregularly - see logs for details.
+2019-11-24 17:56:33,543 WARN  [http-nio-7990-exec-10] admin @16JI31Vx1076x78x3 1mppq0d 0:0:0:0:0:0:0:1 "GET /rest/plugins/1.0/installed-marketplace HTTP/1.1" com.atlassian.upm.pac.PacClientImpl Update check request may take longer because of the number of apps
