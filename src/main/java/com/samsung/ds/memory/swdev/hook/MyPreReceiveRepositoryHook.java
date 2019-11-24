@@ -14,14 +14,7 @@ public class MyPreReceiveRepositoryHook implements PreReceiveRepositoryHook
     @Override
     public boolean onReceive(RepositoryHookContext context, Collection<RefChange> refChanges, HookResponse hookResponse)
     {
-        for (RefChange refChange : refChanges)
-        {
-            if (refChange.getType() == RefChangeType.DELETE)
-            {
-                hookResponse.err().println("The ref '" + refChange.getRef().getId() + "' cannot be deleted.");
-                return false;
-            }
-        }
-        return true;
+        hookResponse.err().println("Hello World Hook Test");
+        return false;
     }
 }

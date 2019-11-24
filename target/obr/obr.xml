@@ -1,7 +1,7 @@
-<repository lastmodified='20191124055410.997'>
+<repository lastmodified='20191124063514.761'>
   <resource id='com.samsung.ds.memory.swdev.prereceive-plugin/1.0.0.SNAPSHOT' symbolicname='com.samsung.ds.memory.swdev.prereceive-plugin' presentationname='prereceive-plugin' uri='prereceive-plugin-1.0.0-SNAPSHOT.jar' version='1.0.0.SNAPSHOT'>
     <description>This is the com.samsung.ds.memory.swdev:prereceive-plugin plugin for Atlassian Bitbucket Server.</description>
-    <size>16557</size>
+    <size>16181</size>
     <documentation>http://www.example.com/</documentation>
     <capability name='bundle'>
       <p n='symbolicname' v='com.samsung.ds.memory.swdev.prereceive-plugin'/>

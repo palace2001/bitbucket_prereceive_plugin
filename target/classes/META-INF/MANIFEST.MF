@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
-Atlassian-Build-Date: 2019-11-24T17:54:09+0900
+Atlassian-Build-Date: 2019-11-24T18:35:13+0900
 Atlassian-Plugin-Key: com.samsung.ds.memory.swdev.prereceive-plugin
-Bnd-LastModified: 1574585650579
+Bnd-LastModified: 1574588114308
 Build-Jdk: 1.8.0_191
 Built-By: KKP
 Bundle-Description: This is the com.samsung.ds.memory.swdev:prereceive-p

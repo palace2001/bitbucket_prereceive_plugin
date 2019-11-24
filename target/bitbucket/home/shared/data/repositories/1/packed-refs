@@ -1,0 +1,11 @@
+# pack-refs with: peeled fully-peeled sorted 
+d6edcbf924697ab811a867421dab60d954ccad99 refs/heads/basic_branching
+6053a1eaa1c009dd11092d09a72f3c41af1b59ad refs/heads/branch_mod_merge
+b00bd9f76e01e95ac00c97331e71f92e53ce61a7 refs/heads/master
+2e10dd2d1d5eea9291b296e78312e8a703964a95 refs/heads/out_of_order_branch
+80aa5be5ecf39660f798858482254f7a2ae9110e refs/tags/backdated_annotated_tag
+^57150c54c38d6570b2fd5e6d6cfc19476de44e84
+9b4e781dea0769888fe270e06ad76675f73851b1 refs/tags/retagged_signed_tag
+^0a943a29376f2336b78312d99e65da17048951db
+12ebe2a58367347cd39f19f5a72f3cbec7b8f9a9 refs/tags/signed_tag
+^0a943a29376f2336b78312d99e65da17048951db
